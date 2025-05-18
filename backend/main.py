@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Form
 from fastapi.middleware.cors import CORSMiddleware
-from seo import analyze_seo
-from ai import improve_article
+from backend.seo import analyze_seo
+from backend.ai import improve_article
 
 app = FastAPI()
 
