@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/analyze";
+//const API_URL = "http://localhost:8000/analyze";
+const API_URL = "https://demo-tpt-new.onrender.com/analyze";
 
 export const analyzeArticle = async (article, keyword) => {
   const formData = new FormData();
